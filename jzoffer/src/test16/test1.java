@@ -18,18 +18,21 @@ public class test1 {
     }
     public boolean HasSubtree(TreeNode root1,TreeNode root2) {
         boolean result=false;
+        //也就是树的遍历 当根结点相等的时候再去判断是否是子树
         if (root1!=null&&root2!=null)
         {
+            //如果两个树的当前根节点值相等就去判断是不是子树
             if (root1.val==root2.val) {
                 result = doesTree1HaveTree2(root1, root2);
             }
+            //如果不想相等就去先试左节点
             if (!result) {
                 result = HasSubtree(root1.left, root2);
             }
+            //再试右节点
             if (!result){
                 result=HasSubtree(root1.right,root2);
             }
-
         }
         return result;
     }
