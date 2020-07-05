@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * @Auther: wqg
- * @Description:第98题 验证二叉搜索树
+ * @Description:第98题  验证二叉搜索树
     给定一个二叉树，判断其是否是一个有效的二叉搜索树。
     假设一个二叉搜索树具有如下特征：
     节点的左子树只包含小于当前节点的数。
