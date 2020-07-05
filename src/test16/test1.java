@@ -9,7 +9,7 @@ package test16;
  * 二叉树不超过1000个节点，且节点数值范围是 [-1000000,1000000] 的整数。
  */
 public class test1 {
-    public class TreeNode {
+    public class TreeNode  {
         int val;
         TreeNode left;
         TreeNode right;
