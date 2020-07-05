@@ -12,7 +12,7 @@ package test4;
  *
  * 暴力破解
  */
-public class Test41 {
+public class test41 {
     public static double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int l1= nums1.length;
         int l2=nums2.length;

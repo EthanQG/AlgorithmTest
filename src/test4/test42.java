@@ -4,7 +4,7 @@ package test4;
  * @Auther: 王庆归
  * @Description:
  */
-public class Test42 {
+public class test42 {
     public static double findMedianSortedArrays(int[] A, int[] B) {
         int m = A.length;
         int n = B.length;
