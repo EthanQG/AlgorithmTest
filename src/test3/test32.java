@@ -10,7 +10,7 @@ import java.util.Map;
  * 通过map  k存储元素 v存储元素位置+1  表示下一个不重复的元素坐标
  *随着end后移[start,end)中会有重复元素，那么就改变start坐标为这个重复位置的坐标 此时滑动窗口内不会有重复字符
  */
-public class Test32 {
+public class test32 {
     public static int lengthOfLongestSubstring(String s) {
         int n=s.length(),ans=0;
         Map<Character,Integer> map=new HashMap<>();

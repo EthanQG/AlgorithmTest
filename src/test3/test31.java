@@ -25,7 +25,7 @@ import java.util.Set;
 *   不存在则加入到set中  存在返回false
 *
 * */
-public class Test31 {
+public class test31 {
     public static int lengthOfLongestSubstring(String s) {
         //字符串长度
         int length =s.length();
