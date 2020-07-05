@@ -2,7 +2,7 @@ package test5;
 
 /**
  * @Auther:
- * @Description:动态规划法 （填表法）
+ * @Description:动态规划法（填表法）
  */
 public class test52 {
     public static String longestPalindrome(String s) {
