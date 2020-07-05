@@ -15,7 +15,6 @@ public class test52 {
         }
         int maxLen=1;//字串最大长度
         int start=0;//字串开始下标
-
         for (int j=1;j<len;j++)
         {
             for (int i=0;i<j;i++)
