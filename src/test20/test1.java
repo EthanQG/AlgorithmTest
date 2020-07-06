@@ -18,7 +18,7 @@ package test20;
  * 9   6 3   1
  */
 public class test1 {
-    public class TreeNode  {
+    public class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
